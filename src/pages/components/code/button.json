@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Simple Button",
+    "button": "bg-slate-800 px-8 py-4 rounded",
+    "code": [
+      "<div className='p-2'>",
+      "<button className='bg-slate-800 px-8 py-4 rounded'>Button</button>",
+      "</div>"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Simple Disabled Button",
+    "button": " bg-slate-500 px-8 py-4 rounded",
+    "code": [
+      "<div className='p-2'>",
+      "<button className='bg-slate-500 px-8 py-4 rounded ' disabled>Button</button>",
+      "</div>"
+    ]
+  }
+]

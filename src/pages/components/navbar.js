@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className='h-16'>
+    <div className='h-16 font-cursive'>
       <div className='drawer'>
         <input id='my-drawer-3' type='checkbox' className='drawer-toggle' />
         <div className='drawer-content flex flex-col'>
@@ -73,7 +73,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className='drawer-side'>
+        <div className='drawer-side '>
           <label htmlFor='my-drawer-3' className='drawer-overlay'></label>
           <ul className='menu p-4 w-80 bg-base-100'>
             <li>
@@ -83,7 +83,7 @@ const Navbar = () => {
               <a>Sidebar Item 2</a>
             </li>
             <li>
-              <div className='relative'>
+              <div className='relative '>
                 <span className='absolute inset-y-0 left-0 flex items-center pl-3'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
