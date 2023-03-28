@@ -6,11 +6,12 @@ import Main from './main'
 
 export default function Home() {
   return (
-    <div>
+    <div className='h-screen'>
       <Navbar className='' />
       <div>
         <Main className='' />
       </div>
+      <hr />
       <div>
         <Footer />
       </div>

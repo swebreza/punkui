@@ -4,23 +4,32 @@ import jsonMap from '../code/button.json'
 
 const Button = () => {
   return (
-    <div className=''>
+    <div className=' '>
       <div className=''>Button</div>
       <div className='p-4'> elements</div>
       <div>
         <div className='items-center  p-3 rounded box box-content'>
           {jsonMap.map((button, index) => {
+            const attribute = button.attr
+
             return (
-              <div key={index} className='  w-max flex-1  rounded'>
+              <div key={index} className='   flex-1 max-w-fit xs:w-40  rounded'>
                 <label htmlFor=''>{button.label}</label>
-                <div className=' '>
+                <div>
                   <div className='p-2'>
-                    <button className={` ${button.button}`}>Button</button>
+                    {index % 2 === 0 ? (
+                      <button className={attribute}> Button</button>
+                    ) : (
+                      <button className={attribute} disabled>
+                        Button
+                      </button>
+                    )}
                   </div>
                 </div>
 
-                <code className='bg-slate-600  p-4 block -z-50'>
+                <code className='bg-slate-600 w-3/4  relative '>
                   <CopyBlock
+                    className='container '
                     language='jsx'
                     text={button.code
                       .toString()
@@ -37,12 +46,15 @@ const Button = () => {
           })}
 
           <div className='p-2'>
-            <button className='bg-slate-800  px-8 py-4 rounded-lg'>
+            <button className='bg-slate-800  px-8 py-4 rounded-lg hover:bg-slate-900'>
               Button
             </button>
           </div>
           <div className='p-2'>
-            <button className='bg-slate-500  px-8 py-4 rounded-lg' disabled>
+            <button
+              className='bg-slate-500  px-8 py-4 rounded-lg hover:bg-slate-300 '
+              disabled
+            >
               Button
             </button>
           </div>
