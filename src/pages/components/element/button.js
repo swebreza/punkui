@@ -44,56 +44,6 @@ const Button = () => {
               </div>
             )
           })}
-
-          <div className='p-2'>
-            <button className='bg-slate-800  px-8 py-4 rounded-lg hover:bg-slate-900'>
-              Button
-            </button>
-          </div>
-          <div className='p-2'>
-            <button
-              className='bg-slate-500  px-8 py-4 rounded-lg hover:bg-slate-300 '
-              disabled
-            >
-              Button
-            </button>
-          </div>
-          <div className='p-2'>
-            <button className='bg-slate-800  px-8 py-4 rounded-full'>
-              Button
-            </button>
-          </div>
-          <div className='p-2'>
-            <button className='bg-slate-500  px-8 py-4 rounded-full' disabled>
-              Button
-            </button>
-          </div>
-          <div className='p-2'>
-            <button className='bg-slate-800  px-8 py-4 rounded-tl-3xl rounded-br-3xl'>
-              Button
-            </button>
-          </div>
-          <div className='p-2'>
-            <button
-              className='bg-slate-500  px-8 py-4 rounded-tl-3xl rounded-br-3xl'
-              disabled
-            >
-              Button
-            </button>
-          </div>
-          <div className='p-2'>
-            <button className='bg-slate-800  px-8 py-4 rounded-tr-3xl rounded-bl-3xl'>
-              Button
-            </button>
-          </div>
-          <div className='p-2'>
-            <button
-              className='bg-slate-500  px-8 py-4 rounded-tr-3xl rounded-bl-3xl'
-              disabled
-            >
-              Button
-            </button>
-          </div>
         </div>
       </div>
     </div>

@@ -2,10 +2,10 @@
   {
     "id": 1,
     "name": "Simple Button",
-    "attr": "bg-slate-800 px-8 py-4 rounded",
+    "attr": "bg-slate-800 px-8 py-4 rounded hover:bg-slate-900",
     "code": [
       "<div className='p-2'>",
-      "<button className='bg-slate-800 px-8 py-4 rounded'>Button</button>",
+      "<button className='bg-slate-800 px-8 py-4 rounded hover:bg-slate-900'>Button</button>",
       "</div>"
     ]
   },
@@ -22,10 +22,80 @@
   {
     "id": 3,
     "name": "Simple Disabled Button",
-    "attr": " bg-slate-500 px-8 py-4 rounded disabled",
+    "attr": "bg-slate-800  px-8 py-4 rounded-lg hover:bg-slate-900",
     "code": [
       "<div className='p-2'>",
-      "<button className='bg-slate-500 px-8 py-4 rounded ' disabled>Button</button>",
+      "<button className='bg-slate-800  px-8 py-4 rounded-lg hover:bg-slate-900 '>Button</button>",
+      "</div>"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Simple Disabled Button",
+    "attr": "bg-slate-500  px-8 py-4 rounded-lg",
+    "code": [
+      "<div className='p-2'>",
+      "<button className='bg-slate-500  px-8 py-4 rounded-lg ' disabled>Button</button>",
+      "</div>"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Simple Disabled Button",
+    "attr": "bg-slate-800  px-8 py-4 rounded-full hover:bg-slate-900",
+    "code": [
+      "<div className='p-2'>",
+      "<button className='bg-slate-800  px-8 py-4 rounded-full hover:bg-slate-900 ' >Button</button>",
+      "</div>"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Simple Disabled Button",
+    "attr": "bg-slate-500  px-8 py-4 rounded-full",
+    "code": [
+      "<div className='p-2'>",
+      "<button className='bg-slate-500  px-8 py-4 rounded-full ' disabled>Button</button>",
+      "</div>"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Simple Disabled Button",
+    "attr": "bg-slate-800  px-8 py-4 rounded-tl-3xl rounded-br-3xl hover:bg-slate-900",
+    "code": [
+      "<div className='p-2'>",
+      "<button className='bg-slate-800  px-8 py-4 rounded-tl-3xl rounded-br-3xl hover:bg-slate-900 ' disabled>Button</button>",
+      "</div>"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Simple Disabled Button",
+    "attr": "bg-slate-500  px-8 py-4 rounded-tl-3xl rounded-br-3xl ",
+    "code": [
+      "<div className='p-2'>",
+      "<button className='bg-slate-500  px-8 py-4 rounded-tl-3xl rounded-br-3xl ' disabled>Button</button>",
+      "</div>"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Simple Disabled Button",
+    "attr": "bg-slate-800  px-8 py-4 rounded-tr-3xl rounded-bl-3xl hover:bg-slate-900",
+    "code": [
+      "<div className='p-2'>",
+      "<button className='bg-slate-800  px-8 py-4 rounded-tr-3xl rounded-bl-3xl hover:bg-slate-900' >Button</button>",
+      "</div>"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Simple Disabled Button",
+    "attr": "bg-slate-500  px-8 py-4 rounded-tr-3xl rounded-bl-3xl ",
+    "code": [
+      "<div className='p-2'>",
+      "<button className='bg-slate-500  px-8 py-4 rounded-tr-3xl rounded-bl-3xl  ' disabled>Button</button>",
       "</div>"
     ]
   }
